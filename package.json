@@ -10,7 +10,7 @@
   "scripts": {
     "bootstrap": "yarn install && lerna run bootstrap --stream",
     "clean": "lerna run clean --stream && rimraf tsconfig.tsbuildinfo",
-    "purge": "yarn clean && lerna run purge && rimraf -rfv node_modules",
+    "purge": "yarn clean && lerna run purge && rimraf node_modules yarn.lock",
     "build": "tsc --build && lerna run build --stream",
     "watch": "tsc --build --watch",
     "lint": "eslint './packages/*/src/**/*.{ts,tsx}' --max-warnings 0",
