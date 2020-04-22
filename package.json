@@ -17,7 +17,9 @@
     "lint:fix": "eslint './packages/*/src/**/*.{ts,tsx}' --fix",
     "backend:serve": "lerna run backend:serve --stream",
     "backend:start": "lerna run backend:start --stream",
-    "frontend:serve": "lerna run frontend:serve --stream"
+    "frontend:serve": "lerna run frontend:serve --stream",
+    "electron:start": "lerna run electron:start --stream",
+    "electron:serve": "lerna run electron:serve --stream"
   },
   "devDependencies": {
     "lerna": "^3.20.2",
