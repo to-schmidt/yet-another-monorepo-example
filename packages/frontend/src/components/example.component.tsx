@@ -6,11 +6,11 @@ import { useGetExamples } from '../repositories/example.repository';
 export interface ExampleProps {}
 
 export const ExampleComponent = (): React.ReactElement => {
-  const { data: examples, loading } = useGetExamples();
+  const { data: examples, error } = useGetExamples();
 
   return (
     <>
-      {!loading &&
+      {!error &&
         examples &&
         examples.map((example: ExampleModel, index: number) => <p key={index}>{example.message}</p>)}
     </>
