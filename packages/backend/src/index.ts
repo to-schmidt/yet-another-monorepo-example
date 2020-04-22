@@ -2,7 +2,7 @@ import { $log, ServerLoader } from '@tsed/common';
 
 import { Server } from './server';
 
-async function bootstrap(): Promise<void> {
+export async function bootstrap(): Promise<void> {
   try {
     $log.debug('Start server...');
     const server = await ServerLoader.bootstrap(Server, {});
@@ -13,5 +13,3 @@ async function bootstrap(): Promise<void> {
     $log.error(er);
   }
 }
-
-bootstrap();
