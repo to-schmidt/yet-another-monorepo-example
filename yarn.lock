@@ -1036,9 +1036,9 @@
     tslib "1.11.1"
 
 "@tsed/testing@^5.46.0":
-  version "5.48.0"
-  resolved "https://registry.yarnpkg.com/@tsed/testing/-/testing-5.48.0.tgz#a9451f8f0cd9f7299ffe7a32061d9450e1f3a072"
-  integrity sha512-Bbu319XIb6kSbAUb4mVPjUJHbij2/hjbDBYR7mzWUQeFUtAxzMLJJLx197kUZWySJlI0v5To4641k6PU3nEYpA==
+  version "5.49.0"
+  resolved "https://registry.yarnpkg.com/@tsed/testing/-/testing-5.49.0.tgz#94ed565c99b2b2d37b4df3717197a0fa19206fde"
+  integrity sha512-C5moukhTRa13fnsYCoOtf41+NDPhskaU4NBYbm3Od0ox29PPAhLBkpAF42hfKqX9FwY0zT+n0Wmh4734TUiLJg==
   dependencies:
     tslib "1.11.1"
 
