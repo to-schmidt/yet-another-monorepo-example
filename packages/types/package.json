@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@tsed/swagger": "^5.46.0",
+    "@tsed/swagger": "^5.63.1",
     "@tsed/common": "^5.46.0"
   }
 }
