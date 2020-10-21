@@ -23,7 +23,7 @@
     "@tsed/common": "^5.46.0",
     "@tsed/core": "^5.46.0",
     "@tsed/di": "^5.46.0",
-    "@tsed/swagger": "^5.46.0",
+    "@tsed/swagger": "^5.65.8",
     "@tsed/testing": "^5.46.0",
     "ts-httpexceptions": "^4.1.0",
     "body-parser": "^1.19.0",
