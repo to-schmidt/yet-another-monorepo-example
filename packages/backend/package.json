@@ -20,7 +20,7 @@
     "@yame/types": "^1.0.0"
   },
   "dependencies": {
-    "@tsed/common": "^5.46.0",
+    "@tsed/common": "^6.10.3",
     "@tsed/core": "^5.46.0",
     "@tsed/di": "^5.46.0",
     "@tsed/swagger": "^5.46.0",
