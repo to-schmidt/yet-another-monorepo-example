@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@tsed/common": "^5.46.0",
-    "@tsed/core": "^5.46.0",
+    "@tsed/core": "^6.17.6",
     "@tsed/di": "^5.46.0",
     "@tsed/swagger": "^5.46.0",
     "@tsed/testing": "^5.46.0",
